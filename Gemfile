@@ -20,6 +20,10 @@ group :test do
   gem 'factory_girl_rails'
 end
 
+group :production do
+  gem 'mysql2'
+end
+
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
 # Use SCSS for stylesheets
